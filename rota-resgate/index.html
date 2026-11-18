@@ -1,0 +1,8 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rota de Resgate</title><link rel="stylesheet" href="estilo.css">
+<main><header><h1>Rota de Resgate</h1><p>Desenha o terreno e compara duas buscas pelo caminho de menor custo.</p></header>
+<section class="controles"><label>Terreno <select id="pincel"><option value="0">Bloqueio</option><option value="5">Lama · custo 5</option><option value="1">Estrada · custo 1</option><option value="base">Mover base</option><option value="alvo">Mover pessoa</option></select></label>
+<button id="restaurar">Restaurar cenário</button><button id="iniciar">▶ Comparar rotas</button></section>
+<p class="legenda">B = base · P = pessoa · Azul = área explorada · Amarelo = rota final</p>
+<div id="paineis"></div><p id="relato" role="status">Clica ou arrasta em qualquer mapa para editar os dois.</p></main>
+<script src="motor.js"></script><script src="app.js"></script></html>
